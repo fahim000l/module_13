@@ -1,0 +1,50 @@
+.custom-bg-info {
+    background-color: #FEEAE9;
+}
+
+.custom-btn-danger {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 10px;
+
+    width: 168px;
+    height: 52px;
+
+    /* Linear */
+
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+
+}
+
+.custom-btn-warning {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 20px;
+    gap: 10px;
+
+    width: 168px;
+    height: 52px;
+    border: 0px;
+    background: #4cb8d3ee;
+    border-radius: 6px;
+}
+
+.watch-color {
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+
+.bag-color {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.sniker-color {
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
